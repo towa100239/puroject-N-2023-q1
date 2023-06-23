@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body{
+    font-size: 100%;
+    color: #484848;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+/*ヘッド部分
+-----------------------*/
+#header{
+   background-image: url(../images/トランプ背景.jpeg);
+   height: 455px;
+   text-align: center;
+   padding: 100px;
+   margin-bottom: 100px;
+}
+#header h1{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#header h2{
+    font-size: 20px;
+}
+article{
+    margin-bottom: 200px;
+}
+.art-title{
+    font-size: 55px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.text{
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+.intorodection{
+    display: flex;
+    margin-left:300px;
+    margin-bottom: 50px;
+}
+.persona{
+    display: block;
+}
+.persona img{
+    width: 350px;
+    margin-right: 50px;
+}
+.persona dl{
+    padding: 50px;
+    font-size: 40px;
+}
+.persona dd{
+    margin-bottom: 20px;
+}
+.persona .txt{
+    font-size: 40px;
+    text-align: center;
+}
+.procedure .step{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.procedure img{
+    width: 400px;
+}
+section{
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.content{
+    display: flex;
+}
+.sec-text{
+    font-size: 30px;
+    margin: 170px auto auto 50px;
+}
+.cont{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.list-cont{
+    margin-bottom: 50px;
+}
+.list-title{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+article li{
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+#footer{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
