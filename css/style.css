@@ -1,0 +1,185 @@
+@charset "UTF-8";
+body{
+    font-size: 100%;
+    color: #484848;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+/*ヘッド部分
+-----------------------*/
+#header{
+   background-image: url(../images/トランプ背景.jpeg);
+   height: 455px;
+   text-align: center;
+   padding: 100px;
+   margin-bottom: 100px;
+}
+#header h1{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#header h2{
+    font-size: 20px;
+}
+/*main
+----------------*/
+article{
+    margin-bottom: 200px;
+}
+.art-title{
+    font-size: 55px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.text{
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+.intorodection{
+    display: flex;
+    margin-left:300px;
+    margin-bottom: 50px;
+}
+.persona{
+    display: block;
+}
+.persona img{
+    width: 350px;
+    margin-right: 50px;
+}
+.persona dl{
+    padding: 50px;
+    font-size: 40px;
+}
+.persona dd{
+    margin-bottom: 20px;
+}
+.persona .txt{
+    font-size: 40px;
+    text-align: center;
+    color: #ff8c8c;
+}
+/*遊びの手順の説明
+--------------------*/
+.procedure .step{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.procedure img{
+    width: 400px;
+}
+section{
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.content{
+    display: flex;
+}
+.sec-text{
+    font-size: 30px;
+    margin: 170px auto auto 50px;
+}
+/*推しポイント
+---------------*/
+.cont{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.list-cont{
+    margin-bottom: 50px;
+}
+.list-title{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+article li{
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+/*footer
+------------*/
+#footer{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width:600px) {
+    #header{
+        padding: 100px 0px;
+    }
+    #header h1{
+        font-size: 35px;
+    }
+    #header h2{
+        font-size: 15px;
+    }
+    .art-title{
+        font-size: 38px;
+    }
+    /*main
+    ----------------*/
+    article{
+        margin-bottom: 150px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    /*ペルソナ紹介
+    -------------*/
+    .intorodection{
+        display: block;
+        margin-left: 0px;
+    }
+    .persona{
+        text-align: center;
+    }
+    .persona img{
+        width: 300px;
+        margin-right: 0px;
+    }
+    .persona dl{
+        font-size: 23px;
+    }
+    .persona dt{
+        float: left;
+    }
+    .persona .txt{
+        font-size: 25px;
+    }
+    /*遊びの手順の説明
+    ----------------------*/
+    .procedure img{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    section{
+        margin-left: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .step{
+        margin-bottom: 20px;
+    }
+    .content{
+        display: block;
+    }
+    .sec-text{
+        font-size: 20px;
+        margin: 0px;
+    }
+    /*推しポイント
+    --------------*/
+    .list-title{
+        font-size: 30px;
+    }
+    article li{
+        font-size: 20px;
+    }
+    /*footer
+    -----------*/
+    #footer{
+        font-size: 15px;
+    }
+}
